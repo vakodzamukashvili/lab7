@@ -1,0 +1,9 @@
+# Obfuscated Fibonacci function
+def a(b):
+    if b <= 1:
+        return b
+    else:
+        return a(b-1) + a(b-2)
+
+# Test the function
+print(a(10))
